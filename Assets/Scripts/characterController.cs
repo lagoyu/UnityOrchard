@@ -49,8 +49,8 @@ public class characterController : MonoBehaviour {
 	{
 		if (Input.GetKey (KeyCode.LeftShift)) 
 		{
-			// FIX THE NEXT LINE TO ENABLE THE PLAYER TO RUN
-			return baseSpeed;
+            // FIX THE NEXT LINE USING runMultiplier TO ENABLE THE PLAYER TO RUN
+            return baseSpeed;
 		}
 		else 
 		{

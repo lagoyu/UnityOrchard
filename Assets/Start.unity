@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 1268995193}
   - component: {fileID: 1268995197}
   - component: {fileID: 1268995200}
-  - component: {fileID: 1268995198}
+  - component: {fileID: 1268995199}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -409,7 +409,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &1268995198
+--- !u!114 &1268995199
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -420,9 +420,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 0
-  sensitivityX: 15
-  sensitivityY: 15
+  axes: 1
+  sensitivityX: 5
+  sensitivityY: 5
   minimumX: -360
   maximumX: 360
   minimumY: -60
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1268995192}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1651120bef543c54d8541fd17826e735, type: 3}
   m_Name: 
@@ -738,9 +738,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axes: 2
-  sensitivityX: 10
-  sensitivityY: 10
-  minimumX: 0
+  sensitivityX: 5
+  sensitivityY: 5
+  minimumX: -360
   maximumX: 360
   minimumY: -60
   maximumY: 60
