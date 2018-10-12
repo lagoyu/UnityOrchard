@@ -42,7 +42,7 @@ public class characterController : MonoBehaviour {
         straffe = straffe * Time.deltaTime;
 
 		// FIX THE LOGIC ERROR IN THE NEXT LINE
-		transform.Translate(forwardAndBack, 0,straffe);
+		transform.Translate(forwardAndBack, 0, straffe);
     }
 
 	float GetSpeed()
